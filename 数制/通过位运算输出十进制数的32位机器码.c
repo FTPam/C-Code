@@ -20,3 +20,4 @@ int main() {
 	DecToBin(a, b);
 	printf("%s", b);
 }
+
