@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
+//判断是否为回文数，最长支持64位整型
 int isPal(int n) {
 	int num[64], length;
 	for (length = 0; n != 0; length++) {
